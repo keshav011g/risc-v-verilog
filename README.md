@@ -25,8 +25,6 @@ This RISC V 5 Stage pipeline Implementation does encounters hazards, and it has 
 
 5 Stage pipeline requires a series of registers between the complete datapath, these registers will be responsible for tracking of instruction or different partss of instructions required by different modules. The instructions needs to be propogated into all five stages for the instruction to be executed correctly and with the help of these registers the corresponding instructions propogate or different parts of instructions accordingly. The datapath followed is mentioned below and is the extened version of same implemented single cycle datapath as tagged above. 
 
-![block diagram](https://github.com/user-attachments/assets/42f3b097-bc33-449c-b613-3b0cdca62cc9)
-
 # Discussions
 
  **1. Fetch Cycle Datapath**
